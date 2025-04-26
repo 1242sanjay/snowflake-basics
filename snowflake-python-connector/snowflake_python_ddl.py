@@ -5,8 +5,8 @@ print("Creating connection to snowflake")
 
 sf_conn_obj = sf.connect(
     user = '1242sanjay',
-    password = 'SnR@mymarch024',
-    account = 'YPLNPMR-CC80971',
+    password = '<password>',
+    account = '<account>',
     warehouse = 'COMPUTE_WH',
     database = 'MY_DB',
     schema = 'MY_SCHEMA'
